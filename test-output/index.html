@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>E:\InventoryOptions\FocusAI\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.focus.testcases.LoginPageTest" hash-for-method="checkCompanyTextDisplayInCompanyListDropdown">checkCompanyTextDisplayInCompanyListDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.focus.testcases.LoginPageTest" hash-for-method="checkLoginPageAvailablityOfFields">checkLoginPageAvailablityOfFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.focus.testcases.URLBrowserTest" hash-for-method="checkLoginPageTitleByURLInputInBrowser">checkLoginPageTitleByURLInputInBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.focus.testcases.LoginPageTest" hash-for-method="checkSignInBtnWithValidUserNameAndValidPassword">checkSignInBtnWithValidUserNameAndValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.focus.testcases.ItemQueryPageTest" hash-for-method="checkStockLedgerReportForBrBatchItem">checkStockLedgerReportForBrBatchItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.focus.testcases.ItemQueryPageTest" hash-for-method="checkStockLedgerReportForBrBatchItem">checkStockLedgerReportForBrBatchItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.focus.testcases.URLBrowserTest" hash-for-method="verifyBrowserOpen">verifyBrowserOpen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.focus.testcases.LoginPageTest" hash-for-method="verifyTheNumberOfListInCompanyDropdownList">verifyTheNumberOfListInCompanyDropdownList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.focus.testcases.ItemQueryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStockLedgerReportForBrBatchItem">
+                  </a> <!-- checkStockLedgerReportForBrBatchItem -->
+                  <span class="method-name">checkStockLedgerReportForBrBatchItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStockLedgerReportForBrBatchItem">
+                  </a> <!-- checkStockLedgerReportForBrBatchItem -->
+                  <span class="method-name">checkStockLedgerReportForBrBatchItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.focus.testcases.URLBrowserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLoginPageTitleByURLInputInBrowser">
+                  </a> <!-- checkLoginPageTitleByURLInputInBrowser -->
+                  <span class="method-name">checkLoginPageTitleByURLInputInBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBrowserOpen">
+                  </a> <!-- verifyBrowserOpen -->
+                  <span class="method-name">verifyBrowserOpen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.focus.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCompanyTextDisplayInCompanyListDropdown">
+                  </a> <!-- checkCompanyTextDisplayInCompanyListDropdown -->
+                  <span class="method-name">checkCompanyTextDisplayInCompanyListDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLoginPageAvailablityOfFields">
+                  </a> <!-- checkLoginPageAvailablityOfFields -->
+                  <span class="method-name">checkLoginPageAvailablityOfFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSignInBtnWithValidUserNameAndValidPassword">
+                  </a> <!-- checkSignInBtnWithValidUserNameAndValidPassword -->
+                  <span class="method-name">checkSignInBtnWithValidUserNameAndValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheNumberOfListInCompanyDropdownList">
+                  </a> <!-- verifyTheNumberOfListInCompanyDropdownList -->
+                  <span class="method-name">verifyTheNumberOfListInCompanyDropdownList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\InventoryOptions\FocusAI\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.focus.listeners.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.focus.testcases.URLBrowserTest&quot;/&gt;
+      &lt;class name=&quot;com.focus.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.focus.testcases.ItemQueryPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkStockLedgerReportForBrBatchItem')
+data.setCell(0, 2, 'com.focus.testcases.ItemQueryPageTest')
+data.setCell(0, 3, 34454);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkStockLedgerReportForBrBatchItem')
+data.setCell(1, 2, 'com.focus.testcases.ItemQueryPageTest')
+data.setCell(1, 3, 34186);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkSignInBtnWithValidUserNameAndValidPassword')
+data.setCell(2, 2, 'com.focus.testcases.LoginPageTest')
+data.setCell(2, 3, 13337);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyBrowserOpen')
+data.setCell(3, 2, 'com.focus.testcases.URLBrowserTest')
+data.setCell(3, 3, 10306);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkLoginPageTitleByURLInputInBrowser')
+data.setCell(4, 2, 'com.focus.testcases.URLBrowserTest')
+data.setCell(4, 3, 6279);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkLoginPageAvailablityOfFields')
+data.setCell(5, 2, 'com.focus.testcases.LoginPageTest')
+data.setCell(5, 3, 1959);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyTheNumberOfListInCompanyDropdownList')
+data.setCell(6, 2, 'com.focus.testcases.LoginPageTest')
+data.setCell(6, 3, 136);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkCompanyTextDisplayInCompanyListDropdown')
+data.setCell(7, 2, 'com.focus.testcases.LoginPageTest')
+data.setCell(7, 3, 50);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkLoginPageAvailablityOfFields</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Completed executing following method : LoginPageTest.checkLoginPageAvailablityOfFields</span>
+                <span class="reporter-method-output">Test Method resides in com.focus.testcases.LoginPageTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to begin executing following method : BaseEngine.afterMethodExecution</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkCompanyTextDisplayInCompanyListDropdown</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Completed executing following method : LoginPageTest.checkCompanyTextDisplayInCompanyListDropdown</span>
+                <span class="reporter-method-output">Test Method resides in com.focus.testcases.LoginPageTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to begin executing following method : BaseEngine.afterMethodExecution</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkStockLedgerReportForBrBatchItem</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Completed executing following method : ItemQueryPageTest.checkStockLedgerReportForBrBatchItem</span>
+                <span class="reporter-method-output">Test Method resides in com.focus.testcases.ItemQueryPageTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to begin executing following method : BaseEngine.afterMethodExecution</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkSignInBtnWithValidUserNameAndValidPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Completed executing following method : LoginPageTest.checkSignInBtnWithValidUserNameAndValidPassword</span>
+                <span class="reporter-method-output">Test Method resides in com.focus.testcases.LoginPageTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to begin executing following method : BaseEngine.afterMethodExecution</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkStockLedgerReportForBrBatchItem</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Completed executing following method : ItemQueryPageTest.checkStockLedgerReportForBrBatchItem</span>
+                <span class="reporter-method-output">Test Method resides in com.focus.testcases.ItemQueryPageTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to begin executing following method : BaseEngine.afterMethodExecution</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkLoginPageTitleByURLInputInBrowser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Completed executing following method : URLBrowserTest.checkLoginPageTitleByURLInputInBrowser</span>
+                <span class="reporter-method-output">Test Method resides in com.focus.testcases.URLBrowserTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to begin executing following method : BaseEngine.afterMethodExecution</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyBrowserOpen</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Completed executing following method : URLBrowserTest.verifyBrowserOpen</span>
+                <span class="reporter-method-output">Test Method resides in com.focus.testcases.URLBrowserTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to begin executing following method : BaseEngine.afterMethodExecution</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTheNumberOfListInCompanyDropdownList</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Completed executing following method : LoginPageTest.verifyTheNumberOfListInCompanyDropdownList</span>
+                <span class="reporter-method-output">Test Method resides in com.focus.testcases.LoginPageTest</span>
+                <span class="reporter-method-output">Test Status: Pass</span>
+                <span class="reporter-method-output">About to begin executing following method : BaseEngine.afterMethodExecution</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.focus.testcases.ItemQueryPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">generateReports</span>
+                <br/>
+                <span class="ignored-method-name">intialiseReports</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.focus.testcases.LoginPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">generateReports</span>
+                <br/>
+                <span class="ignored-method-name">intialiseReports</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.focus.testcases.URLBrowserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">openBrowser(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">intialiseReports</span>
+                <span class="method-start">3406 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodExecution(public void com.focus.testcases.URLBrowserTest.verifyBrowserOpen() throws org.apache.poi.EncryptedDo...)</span>
+                <span class="method-start">3684 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBrowserOpen</span>
+                <span class="method-start">3690 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodExecution([TestResult name=verifyBrowserOpen status=SUCCESS method=URLBrowserTest.verifyBrowserOpen()[pri:1, i...)</span>
+                <span class="method-start">13998 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodExecution(public void com.focus.testcases.URLBrowserTest.checkLoginPageTitleByURLInputInBrowser() throws org.a...)</span>
+                <span class="method-start">14000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkLoginPageTitleByURLInputInBrowser</span>
+                <span class="method-start">14000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodExecution([TestResult name=checkLoginPageTitleByURLInputInBrowser status=SUCCESS method=URLBrowserTest.checkLo...)</span>
+                <span class="method-start">20282 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.focus.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodExecution(public void com.focus.testcases.LoginPageTest.checkLoginPageAvailablityOfFields() throws org.apache....)</span>
+                <span class="method-start">20284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkLoginPageAvailablityOfFields</span>
+                <span class="method-start">20285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodExecution([TestResult name=checkLoginPageAvailablityOfFields status=SUCCESS method=LoginPageTest.checkLoginPag...)</span>
+                <span class="method-start">22249 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodExecution(public void com.focus.testcases.LoginPageTest.checkCompanyTextDisplayInCompanyListDropdown() throws ...)</span>
+                <span class="method-start">22249 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkCompanyTextDisplayInCompanyListDropdown</span>
+                <span class="method-start">22250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodExecution([TestResult name=checkCompanyTextDisplayInCompanyListDropdown status=SUCCESS method=LoginPageTest.ch...)</span>
+                <span class="method-start">22300 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodExecution(public void com.focus.testcases.LoginPageTest.verifyTheNumberOfListInCompanyDropdownList() throws or...)</span>
+                <span class="method-start">22300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheNumberOfListInCompanyDropdownList</span>
+                <span class="method-start">22300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodExecution([TestResult name=verifyTheNumberOfListInCompanyDropdownList status=SUCCESS method=LoginPageTest.veri...)</span>
+                <span class="method-start">22436 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodExecution(public void com.focus.testcases.LoginPageTest.checkSignInBtnWithValidUserNameAndValidPassword() thro...)</span>
+                <span class="method-start">22436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSignInBtnWithValidUserNameAndValidPassword</span>
+                <span class="method-start">22436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodExecution([TestResult name=checkSignInBtnWithValidUserNameAndValidPassword status=SUCCESS method=LoginPageTest...)</span>
+                <span class="method-start">35773 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.focus.testcases.ItemQueryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodExecution(public void com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForBrBatchItem() throws org....)</span>
+                <span class="method-start">35773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkStockLedgerReportForBrBatchItem</span>
+                <span class="method-start">35773 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodExecution([TestResult name=checkStockLedgerReportForBrBatchItem status=SUCCESS method=ItemQueryPageTest.checkS...)</span>
+                <span class="method-start">70229 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodExecution(public void com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForBrBatchItem() throws org....)</span>
+                <span class="method-start">70229 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkStockLedgerReportForBrBatchItem</span>
+                <span class="method-start">70229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodExecution([TestResult name=checkStockLedgerReportForBrBatchItem status=SUCCESS method=ItemQueryPageTest.checkS...)</span>
+                <span class="method-start">104416 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.focus.testcases.URLBrowserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">generateReports</span>
+                <span class="method-start">104417 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">104718 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

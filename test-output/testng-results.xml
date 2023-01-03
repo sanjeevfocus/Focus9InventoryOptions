@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[About to begin executing Suite Suite]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.openBrowser]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.openBrowser]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing Test Test]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.intialiseReports]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.intialiseReports]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : URLBrowserTest.verifyBrowserOpen]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : URLBrowserTest.verifyBrowserOpen]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.focus.testcases.URLBrowserTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : URLBrowserTest.checkLoginPageTitleByURLInputInBrowser]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : URLBrowserTest.checkLoginPageTitleByURLInputInBrowser]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.focus.testcases.URLBrowserTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : LoginPageTest.checkLoginPageAvailablityOfFields]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : LoginPageTest.checkLoginPageAvailablityOfFields]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.focus.testcases.LoginPageTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : LoginPageTest.checkCompanyTextDisplayInCompanyListDropdown]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : LoginPageTest.checkCompanyTextDisplayInCompanyListDropdown]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.focus.testcases.LoginPageTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : LoginPageTest.verifyTheNumberOfListInCompanyDropdownList]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : LoginPageTest.verifyTheNumberOfListInCompanyDropdownList]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.focus.testcases.LoginPageTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : LoginPageTest.checkSignInBtnWithValidUserNameAndValidPassword]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : LoginPageTest.checkSignInBtnWithValidUserNameAndValidPassword]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.focus.testcases.LoginPageTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ItemQueryPageTest.checkStockLedgerReportForBrBatchItem]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ItemQueryPageTest.checkStockLedgerReportForBrBatchItem]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.focus.testcases.ItemQueryPageTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : ItemQueryPageTest.checkStockLedgerReportForBrBatchItem]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : ItemQueryPageTest.checkStockLedgerReportForBrBatchItem]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in com.focus.testcases.ItemQueryPageTest]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.generateReports]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.generateReports]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing test Test]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method : BaseEngine.closeBrowser]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method : BaseEngine.closeBrowser]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="101298" started-at="2022-12-09T04:14:34Z" finished-at="2022-12-09T04:16:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="101298" started-at="2022-12-09T04:14:34Z" finished-at="2022-12-09T04:16:15Z">
+      <class name="com.focus.testcases.ItemQueryPageTest">
+        <test-method status="PASS" signature="beforeMethodExecution(java.lang.reflect.Method)[pri:0, instance:com.focus.testcases.ItemQueryPageTest@35d176f7]" name="beforeMethodExecution" is-config="true" duration-ms="0" started-at="2022-12-09T09:45:06Z" finished-at="2022-12-09T09:45:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForBrBatchItem() throws org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethodExecution -->
+        <test-method status="PASS" signature="checkStockLedgerReportForBrBatchItem()[pri:15, instance:com.focus.testcases.ItemQueryPageTest@35d176f7]" name="checkStockLedgerReportForBrBatchItem" duration-ms="34454" started-at="2022-12-09T09:45:06Z" finished-at="2022-12-09T09:45:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : ItemQueryPageTest.checkStockLedgerReportForBrBatchItem]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.focus.testcases.ItemQueryPageTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStockLedgerReportForBrBatchItem -->
+        <test-method status="PASS" signature="checkStockLedgerReportForBrBatchItem()[pri:15, instance:com.focus.testcases.ItemQueryPageTest@35d176f7]" name="checkStockLedgerReportForBrBatchItem" duration-ms="34186" started-at="2022-12-09T09:45:41Z" finished-at="2022-12-09T09:46:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : ItemQueryPageTest.checkStockLedgerReportForBrBatchItem]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.focus.testcases.ItemQueryPageTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStockLedgerReportForBrBatchItem -->
+        <test-method status="PASS" signature="afterMethodExecution(org.testng.ITestResult)[pri:0, instance:com.focus.testcases.ItemQueryPageTest@35d176f7]" name="afterMethodExecution" is-config="true" duration-ms="0" started-at="2022-12-09T09:45:41Z" finished-at="2022-12-09T09:45:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkStockLedgerReportForBrBatchItem status=SUCCESS method=ItemQueryPageTest.checkStockLedgerReportForBrBatchItem()[pri:15, instance:com.focus.testcases.ItemQueryPageTest@35d176f7] output=Completed executing following method : ItemQueryPageTest.checkStockLedgerReportForBrBatchItem]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethodExecution -->
+        <test-method status="PASS" signature="beforeMethodExecution(java.lang.reflect.Method)[pri:0, instance:com.focus.testcases.ItemQueryPageTest@35d176f7]" name="beforeMethodExecution" is-config="true" duration-ms="0" started-at="2022-12-09T09:45:41Z" finished-at="2022-12-09T09:45:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForBrBatchItem() throws org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethodExecution -->
+        <test-method status="PASS" signature="afterMethodExecution(org.testng.ITestResult)[pri:0, instance:com.focus.testcases.ItemQueryPageTest@35d176f7]" name="afterMethodExecution" is-config="true" duration-ms="1" started-at="2022-12-09T09:46:15Z" finished-at="2022-12-09T09:46:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkStockLedgerReportForBrBatchItem status=SUCCESS method=ItemQueryPageTest.checkStockLedgerReportForBrBatchItem()[pri:15, instance:com.focus.testcases.ItemQueryPageTest@35d176f7] output=Completed executing following method : ItemQueryPageTest.checkStockLedgerReportForBrBatchItem]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethodExecution -->
+      </class> <!-- com.focus.testcases.ItemQueryPageTest -->
+      <class name="com.focus.testcases.LoginPageTest">
+        <test-method status="PASS" signature="beforeMethodExecution(java.lang.reflect.Method)[pri:0, instance:com.focus.testcases.LoginPageTest@551aa95a]" name="beforeMethodExecution" is-config="true" duration-ms="1" started-at="2022-12-09T09:44:51Z" finished-at="2022-12-09T09:44:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.focus.testcases.LoginPageTest.checkLoginPageAvailablityOfFields() throws org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethodExecution -->
+        <test-method status="PASS" signature="checkLoginPageAvailablityOfFields()[pri:3, instance:com.focus.testcases.LoginPageTest@551aa95a]" name="checkLoginPageAvailablityOfFields" duration-ms="1959" started-at="2022-12-09T09:44:51Z" finished-at="2022-12-09T09:44:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : LoginPageTest.checkLoginPageAvailablityOfFields]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.focus.testcases.LoginPageTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLoginPageAvailablityOfFields -->
+        <test-method status="PASS" signature="beforeMethodExecution(java.lang.reflect.Method)[pri:0, instance:com.focus.testcases.LoginPageTest@551aa95a]" name="beforeMethodExecution" is-config="true" duration-ms="1" started-at="2022-12-09T09:44:53Z" finished-at="2022-12-09T09:44:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.focus.testcases.LoginPageTest.checkCompanyTextDisplayInCompanyListDropdown() throws org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethodExecution -->
+        <test-method status="PASS" signature="afterMethodExecution(org.testng.ITestResult)[pri:0, instance:com.focus.testcases.LoginPageTest@551aa95a]" name="afterMethodExecution" is-config="true" duration-ms="0" started-at="2022-12-09T09:44:53Z" finished-at="2022-12-09T09:44:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkLoginPageAvailablityOfFields status=SUCCESS method=LoginPageTest.checkLoginPageAvailablityOfFields()[pri:3, instance:com.focus.testcases.LoginPageTest@551aa95a] output=Completed executing following method : LoginPageTest.checkLoginPageAvailablityOfFields]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethodExecution -->
+        <test-method status="PASS" signature="checkCompanyTextDisplayInCompanyListDropdown()[pri:4, instance:com.focus.testcases.LoginPageTest@551aa95a]" name="checkCompanyTextDisplayInCompanyListDropdown" duration-ms="50" started-at="2022-12-09T09:44:53Z" finished-at="2022-12-09T09:44:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : LoginPageTest.checkCompanyTextDisplayInCompanyListDropdown]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.focus.testcases.LoginPageTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkCompanyTextDisplayInCompanyListDropdown -->
+        <test-method status="PASS" signature="afterMethodExecution(org.testng.ITestResult)[pri:0, instance:com.focus.testcases.LoginPageTest@551aa95a]" name="afterMethodExecution" is-config="true" duration-ms="0" started-at="2022-12-09T09:44:53Z" finished-at="2022-12-09T09:44:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCompanyTextDisplayInCompanyListDropdown status=SUCCESS method=LoginPageTest.checkCompanyTextDisplayInCompanyListDropdown()[pri:4, instance:com.focus.testcases.LoginPageTest@551aa95a] output=Completed executing following method : LoginPageTest.checkCompanyTextDisplayInCompanyListDropdown]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethodExecution -->
+        <test-method status="PASS" signature="verifyTheNumberOfListInCompanyDropdownList()[pri:5, instance:com.focus.testcases.LoginPageTest@551aa95a]" name="verifyTheNumberOfListInCompanyDropdownList" duration-ms="136" started-at="2022-12-09T09:44:53Z" finished-at="2022-12-09T09:44:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : LoginPageTest.verifyTheNumberOfListInCompanyDropdownList]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.focus.testcases.LoginPageTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheNumberOfListInCompanyDropdownList -->
+        <test-method status="PASS" signature="beforeMethodExecution(java.lang.reflect.Method)[pri:0, instance:com.focus.testcases.LoginPageTest@551aa95a]" name="beforeMethodExecution" is-config="true" duration-ms="0" started-at="2022-12-09T09:44:53Z" finished-at="2022-12-09T09:44:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.focus.testcases.LoginPageTest.verifyTheNumberOfListInCompanyDropdownList() throws org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethodExecution -->
+        <test-method status="PASS" signature="afterMethodExecution(org.testng.ITestResult)[pri:0, instance:com.focus.testcases.LoginPageTest@551aa95a]" name="afterMethodExecution" is-config="true" duration-ms="0" started-at="2022-12-09T09:44:53Z" finished-at="2022-12-09T09:44:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheNumberOfListInCompanyDropdownList status=SUCCESS method=LoginPageTest.verifyTheNumberOfListInCompanyDropdownList()[pri:5, instance:com.focus.testcases.LoginPageTest@551aa95a] output=Completed executing following method : LoginPageTest.verifyTheNumberOfListInCompanyDropdownList]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethodExecution -->
+        <test-method status="PASS" signature="beforeMethodExecution(java.lang.reflect.Method)[pri:0, instance:com.focus.testcases.LoginPageTest@551aa95a]" name="beforeMethodExecution" is-config="true" duration-ms="0" started-at="2022-12-09T09:44:53Z" finished-at="2022-12-09T09:44:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.focus.testcases.LoginPageTest.checkSignInBtnWithValidUserNameAndValidPassword() throws org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethodExecution -->
+        <test-method status="PASS" signature="checkSignInBtnWithValidUserNameAndValidPassword()[pri:6, instance:com.focus.testcases.LoginPageTest@551aa95a]" name="checkSignInBtnWithValidUserNameAndValidPassword" duration-ms="13337" started-at="2022-12-09T09:44:53Z" finished-at="2022-12-09T09:45:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : LoginPageTest.checkSignInBtnWithValidUserNameAndValidPassword]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.focus.testcases.LoginPageTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkSignInBtnWithValidUserNameAndValidPassword -->
+        <test-method status="PASS" signature="afterMethodExecution(org.testng.ITestResult)[pri:0, instance:com.focus.testcases.LoginPageTest@551aa95a]" name="afterMethodExecution" is-config="true" duration-ms="0" started-at="2022-12-09T09:45:06Z" finished-at="2022-12-09T09:45:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkSignInBtnWithValidUserNameAndValidPassword status=SUCCESS method=LoginPageTest.checkSignInBtnWithValidUserNameAndValidPassword()[pri:6, instance:com.focus.testcases.LoginPageTest@551aa95a] output=Completed executing following method : LoginPageTest.checkSignInBtnWithValidUserNameAndValidPassword]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethodExecution -->
+      </class> <!-- com.focus.testcases.LoginPageTest -->
+      <class name="com.focus.testcases.URLBrowserTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.focus.testcases.URLBrowserTest@578486a3]" name="openBrowser" is-config="true" duration-ms="3400" started-at="2022-12-09T09:44:31Z" finished-at="2022-12-09T09:44:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.openBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="intialiseReports()[pri:0, instance:com.focus.testcases.URLBrowserTest@578486a3]" name="intialiseReports" is-config="true" duration-ms="264" started-at="2022-12-09T09:44:34Z" finished-at="2022-12-09T09:44:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.intialiseReports]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- intialiseReports -->
+        <test-method status="PASS" signature="beforeMethodExecution(java.lang.reflect.Method)[pri:0, instance:com.focus.testcases.URLBrowserTest@578486a3]" name="beforeMethodExecution" is-config="true" duration-ms="6" started-at="2022-12-09T09:44:34Z" finished-at="2022-12-09T09:44:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.focus.testcases.URLBrowserTest.verifyBrowserOpen() throws org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethodExecution -->
+        <test-method status="PASS" signature="verifyBrowserOpen()[pri:1, instance:com.focus.testcases.URLBrowserTest@578486a3]" name="verifyBrowserOpen" duration-ms="10306" started-at="2022-12-09T09:44:34Z" finished-at="2022-12-09T09:44:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : URLBrowserTest.verifyBrowserOpen]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.focus.testcases.URLBrowserTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBrowserOpen -->
+        <test-method status="PASS" signature="afterMethodExecution(org.testng.ITestResult)[pri:0, instance:com.focus.testcases.URLBrowserTest@578486a3]" name="afterMethodExecution" is-config="true" duration-ms="2" started-at="2022-12-09T09:44:45Z" finished-at="2022-12-09T09:44:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBrowserOpen status=SUCCESS method=URLBrowserTest.verifyBrowserOpen()[pri:1, instance:com.focus.testcases.URLBrowserTest@578486a3] output=Completed executing following method : URLBrowserTest.verifyBrowserOpen]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethodExecution -->
+        <test-method status="PASS" signature="checkLoginPageTitleByURLInputInBrowser()[pri:2, instance:com.focus.testcases.URLBrowserTest@578486a3]" name="checkLoginPageTitleByURLInputInBrowser" duration-ms="6279" started-at="2022-12-09T09:44:45Z" finished-at="2022-12-09T09:44:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : URLBrowserTest.checkLoginPageTitleByURLInputInBrowser]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in com.focus.testcases.URLBrowserTest]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLoginPageTitleByURLInputInBrowser -->
+        <test-method status="PASS" signature="beforeMethodExecution(java.lang.reflect.Method)[pri:0, instance:com.focus.testcases.URLBrowserTest@578486a3]" name="beforeMethodExecution" is-config="true" duration-ms="0" started-at="2022-12-09T09:44:45Z" finished-at="2022-12-09T09:44:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.focus.testcases.URLBrowserTest.checkLoginPageTitleByURLInputInBrowser() throws org.apache.poi.EncryptedDocumentException,org.apache.poi.openxml4j.exceptions.InvalidFormatException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.beforeMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethodExecution -->
+        <test-method status="PASS" signature="afterMethodExecution(org.testng.ITestResult)[pri:0, instance:com.focus.testcases.URLBrowserTest@578486a3]" name="afterMethodExecution" is-config="true" duration-ms="0" started-at="2022-12-09T09:44:51Z" finished-at="2022-12-09T09:44:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkLoginPageTitleByURLInputInBrowser status=SUCCESS method=URLBrowserTest.checkLoginPageTitleByURLInputInBrowser()[pri:2, instance:com.focus.testcases.URLBrowserTest@578486a3] output=Completed executing following method : URLBrowserTest.checkLoginPageTitleByURLInputInBrowser]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.afterMethodExecution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethodExecution -->
+        <test-method status="PASS" signature="generateReports()[pri:0, instance:com.focus.testcases.URLBrowserTest@578486a3]" name="generateReports" is-config="true" duration-ms="281" started-at="2022-12-09T09:46:15Z" finished-at="2022-12-09T09:46:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.generateReports]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.focus.testcases.URLBrowserTest@578486a3]" name="closeBrowser" is-config="true" duration-ms="140" started-at="2022-12-09T09:46:15Z" finished-at="2022-12-09T09:46:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method : BaseEngine.closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.focus.testcases.URLBrowserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

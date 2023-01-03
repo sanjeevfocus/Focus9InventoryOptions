@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.focus.testcases.ItemQueryPageTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.focus.testcases.ItemQueryPageTest">
+        <methods>
+          <include name="checkStockAgeingAnalysisReportByWarehouseHyd"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkStockLedgerReportForStockItemAfterStockInAndStockOutVouchers"/>
+          <include name="checkStockMovementReportByWareHouse"/>
+          <include name="checkSavingStockOutVoucher"/>
+          <include name="checkStockLedgerReportForBrBatchItemAfterSavingSalesReturnsVocher"/>
+          <include name="checkSavingStockInVoucher"/>
+          <include name="checkStockStatementReportForFifoItem"/>
+          <include name="checkStockValuationReportByInventoryTagByProduct"/>
+          <include name="openBrowser"/>
+          <include name="checkStockAgeingAnalysisReportByDefault"/>
+          <include name="checkStockLedgerReportForStockItemAfterAutrhroizedStockOutVoucher"/>
+          <include name="checkStockAgeingAnalysisReportByWarehouse"/>
+          <include name="checkStockAgeingAnalysisReportByWarehouseSEC"/>
+          <include name="checkStockBalanceByWarehouseReport"/>
+          <include name="intialiseReports"/>
+          <include name="checkStockStatementReporFortBrBatchItem"/>
+          <include name="checkStockValuationReportByProductbyInventoryTag"/>
+          <include name="checkStockValuationReportByProduct"/>
+          <include name="checkStockMovementReportByDefault"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkLoginToTest1UserAndAuthorizeStockOutVocher"/>
+          <include name="checkStockStatementReportForRmaItem"/>
+          <include name="checkStockLedgerReportForRmaItemAfterSavingSalesReturnvoucher"/>
+        </methods>
+      </class> <!-- com.focus.testcases.ItemQueryPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

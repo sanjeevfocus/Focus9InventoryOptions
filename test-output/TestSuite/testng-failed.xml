@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="methods">
+  <listeners>
+    <listener class-name="com.focus.listeners.Listener"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.focus.testcases.URLBrowserTest"/>
+      <class name="com.focus.testcases.LoginPageTest"/>
+      <class name="com.focus.testcases.ItemQueryPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.focus.testcases.ItemQueryPageTest">
+        <methods>
+          <include name="checkStockLedgerReportForRmaItem"/>
+          <include name="validteItemQueryStocksInBatchItemAfterSavingPurchaseVocher"/>
+          <include name="checkSavingStockTransferVocher2"/>
+          <include name="checkStockMovementReportByWareHouse"/>
+          <include name="checkCustomerAgeingSummeryReportWithRefineFilter"/>
+          <include name="checkSavingStockOutVoucher"/>
+          <include name="checkLoginToSUUserAndSavingStockTransferVocher1"/>
+          <include name="checkSavingShortagesinStockVoucherWithRmaItemTestWareHosue"/>
+          <include name="checkStockLedgerReportAfterSavingSalesReturnsVocherWithRefineFilterLastPage"/>
+          <include name="checkStockLedgerReportForFifoItemAfterLoginToInvUser"/>
+          <include name="checkLedgerReportWithRefineFilterFirstPage"/>
+          <include name="checkStockValuationReportByInventoryTagByProduct"/>
+          <include name="checkStockAgeingAnalysisReportByDefault"/>
+          <include name="checkSavingShortagesinStockVoucherWithBrItemTestWareHosue"/>
+          <include name="checkStockMovementReportWithRefineFilter"/>
+          <include name="checkSavingShortagesinStockVoucherWithBrItemHydSecWareHosueInSUUser"/>
+          <include name="checkSavingSalesInvoiceVoucherBrBatchItemWithSECWarehouse"/>
+          <include name="checkStockLedgerReportForRmaItemAfterStockTransferVoucher2"/>
+          <include name="checkStockValuationReportByProductbyInventoryTag"/>
+          <include name="validteItemQueryStocksInFifoItemAfterSavingPurchaseVocher"/>
+          <include name="checkSavingSalesInvoiceVoucherRmaItemWithHYDWarehouse"/>
+          <include name="checkLoginToTest1UserAndAuthorizeStockOutVocher"/>
+          <include name="checkStockLedgerReportFortBrBatchItemAfterSavingPurchaseVocher"/>
+          <include name="checkStockLedgerReportForFifoItemAfterStockTransferVoucher"/>
+          <include name="checkStockLedgerReportForBrBatchItemAfterSavingSalesReturnsVocher"/>
+          <include name="checkStockLedgerReportForRmaItemAfterLoginToInvUser"/>
+          <include name="checkLoginToInvUserAndValidteItemQueryStocksInBatchItem"/>
+          <include name="checkSavePurchasesVoucher"/>
+          <include name="checkStockLedgerReportForBrBatchItemAfterSavingSalesInvoiceVocher"/>
+          <include name="checkSavingShortagesinStockVoucherWithFifoItem3WareHosue"/>
+          <include name="checkSavingShortagesinStockVoucherWithRmaItemSecWareHosue"/>
+          <include name="checkStockLedgerReportForStockItemAfterAutrhroizedStockOutVoucher"/>
+          <include name="validteItemQueryStocksInBatchItem"/>
+          <include name="checkStockLedgerReportForFifoItemAfterStockTransferVoucher2"/>
+          <include name="validteItemQueryStocksInFifoItem"/>
+          <include name="validteItemQueryStocksInWAItemAfterLoginToInvUser"/>
+          <include name="validteItemQueryStocksInBatchItemAfterSavingStockTransferVoucher2"/>
+          <include name="checkStockLedgerReportForBrBatchItemAfterLoginToInvUser"/>
+          <include name="checkStockStatementReporFortBrBatchItem"/>
+          <include name="checkSavingSalesReturnsVoucherWithAllItemsINVUser"/>
+          <include name="checkSavingexcessInStocksVoucherWithALLItemsInInvUser"/>
+          <include name="validteItemQueryStocksInWAItemAfterSavingSalesReturnsVocher"/>
+          <include name="checkStockLedgerReportForBrBatchItemAfterStockTransferVoucher2"/>
+          <include name="checkVendorAgeingSummeryReportWithRefineFilter"/>
+          <include name="validteItemQueryStocksInBatchItemAfterSavingStockTransferVoucher"/>
+          <include name="checkSavingSalesInvoiceVoucherRmaItemWithSECWarehouse"/>
+          <include name="checkStockLedgerReportForRmaItemAfterSavingSalesReturnvoucher"/>
+          <include name="checkSavingPurchaseReturnsVoucherWithFifoItemHydSecWareHosueInINVUser"/>
+          <include name="checkStockLedgerReportForBrBatchItemAfterStockTransferVoucher"/>
+          <include name="validteItemQueryStocksInWAItemAfterSavingStockTransferVoucher2"/>
+          <include name="checkSavingPurchaseReturnsVoucherWithRmaItemHydWareHosueInINVUser"/>
+          <include name="checkSavingStockInVoucher"/>
+          <include name="checkStockLedgerReportForRmaItemAfterSavingSalesInvoiceVocher"/>
+          <include name="checkStockLedgerReportForFifoItem"/>
+          <include name="checkStockLedgerReportForRmaItemAfterSavingPurchaseVocher"/>
+          <include name="checkSavingSalesInvoiceVoucherFifoItemWith2Warehouse"/>
+          <include name="checkTrailBalanceReportWithRefineFilter"/>
+          <include name="checkSavingPurchaseReturnsVoucherWithBrItemHydSecWareHosueInINVUser"/>
+          <include name="checkStockAgeingAnalysisReportByWarehouse"/>
+          <include name="checkStockAgeingAnalysisReportByWarehouseSEC"/>
+          <include name="validteItemQueryStocksInWAItemAfterSavingPurchaseVocher"/>
+          <include name="checkSavingShortagesinStockVoucherWithRmaItemHydWareHosue"/>
+          <include name="checkLedgerReportWithRefineFilterLastPage"/>
+          <include name="checkStockValuationReportByProduct"/>
+          <include name="checkStockStatementReportForRmaItem"/>
+          <include name="validteItemQueryStocksInFifoItemAfterSavingSalesReturnsVocher"/>
+          <include name="checkStockLedgerReportAfterSavingSalesReturnsVocherWithRefineFilterFirstPage"/>
+          <include name="checkStockAgeingAnalysisReportByWarehouseHyd"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkStockLedgerReportForStockItemAfterStockInAndStockOutVouchers"/>
+          <include name="validteItemQueryStocksInBatchItemAfterSavingSalesReturnsVocher"/>
+          <include name="validteItemQueryStocksInWAItem"/>
+          <include name="checkStockLedgerReportForFifoItemAfterSavingPurchaseVocher"/>
+          <include name="checkStockStatementReportForFifoItem"/>
+          <include name="validteItemQueryStocksInFifoItemAfterLoginToInvUser"/>
+          <include name="checkStockAgeingAnalysisReportByDefaultWithRefineFilter"/>
+          <include name="checkSavingSalesInvoiceVoucherBrBatchItemWithHydWarehouse"/>
+          <include name="validteItemQueryStocksInFifoItemAfterSavingStockTransferVoucher"/>
+          <include name="checkPurchaseRegisterReportWithRefineFilter"/>
+          <include name="validteItemQueryStocksInFifoItemAfterSavingStockTransferVoucher2"/>
+          <include name="checkStockBalanceByWarehouseReport"/>
+          <include name="checkStockLedgerReportForRmaItemAfterStockTransferVoucher"/>
+          <include name="checkStockBalanceByWarehouseReportWithRefineFilter"/>
+          <include name="checkStockValuationReportByProductWithRefineFilter"/>
+          <include name="checkSavingPurchaseReturnsVoucherWithRmaItemSECWareHosueInINVUser"/>
+          <include name="checkStockMovementReportByDefault"/>
+          <include name="afterMethodExecution"/>
+          <include name="validteItemQueryStocksInWAItemAfterSavingStockTransferVoucher"/>
+          <include name="checkStockLedgerReportForBrBatchItem"/>
+        </methods>
+      </class> <!-- com.focus.testcases.ItemQueryPageTest -->
+      <class name="com.focus.testcases.URLBrowserTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="intialiseReports"/>
+          <include name="openBrowser"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.URLBrowserTest -->
+      <class name="com.focus.testcases.LoginPageTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="checkLoginPageAvailablityOfFields"/>
+          <include name="checkSignInBtnWithValidUserNameAndValidPassword"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

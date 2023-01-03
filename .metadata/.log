@@ -3639,3 +3639,907 @@ java.io.IOException: The process cannot access the file because another process 
 	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:233)
 	at org.eclipse.egit.ui.internal.staging.StagingView$48.run(StagingView.java:3119)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.testng.eclipse 1 0 2019-06-17 15:38:00.240
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\Selenium\EclipseNeon\eclipse\configuration\org.eclipse.osgi\595\0\.cp\lib\testng-remote.jar E:\FocusAI\FocusAI\target\test-classes E:\FocusAI\FocusAI\target\classes C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-server\3.12.0\selenium-server-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.24\cssparser-0.9.24.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.29\htmlunit-2.29.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.28\neko-htmlunit-2.28.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.7.v20171121\jetty-repacked-9.4.7.v20171121.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-client\9.4.7.v20170914\jetty-client-9.4.7.v20170914.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.7.v20170914\jetty-xml-9.4.7.v20170914.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.29.0\htmlunit-driver-2.29.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.7.v20170914\websocket-api-9.4.7.v20170914.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.7.v20170914\websocket-client-9.4.7.v20170914.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.7.v20170914\websocket-common-9.4.7.v20170914.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\logging\log4j\log4j-api\2.9.1\log4j-api-2.9.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\de\openkeyword\autoit\0.1.20\autoit-0.1.20.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sf\jacob-project\jacob\1.14.3\jacob-1.14.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\antlr\antlr4-runtime\4.7.1\antlr4-runtime-4.7.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\antlr\ST4\4.0.8\ST4-4.0.8.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.1\jaxb-impl-2.3.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-jxc\2.3.1\jaxb-jxc-2.3.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-xjc\2.3.1\jaxb-xjc-2.3.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 22771 -protocol json -d E:\FocusAI\FocusAI\test-output E:\FocusAI\FocusAI\testng.xml
+java -ea -classpath E:\Selenium\EclipseNeon\eclipse\configuration\org.eclipse.osgi\595\0\.cp\lib\testng-remote.jar:E:\FocusAI\FocusAI\target\test-classes:E:\FocusAI\FocusAI\target\classes:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-server\3.12.0\selenium-server-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.24\cssparser-0.9.24.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.29\htmlunit-2.29.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.28\neko-htmlunit-2.28.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.7.v20171121\jetty-repacked-9.4.7.v20171121.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-client\9.4.7.v20170914\jetty-client-9.4.7.v20170914.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.7.v20170914\jetty-xml-9.4.7.v20170914.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.29.0\htmlunit-driver-2.29.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.7.v20170914\websocket-api-9.4.7.v20170914.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.7.v20170914\websocket-client-9.4.7.v20170914.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.7.v20170914\websocket-common-9.4.7.v20170914.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\logging\log4j\log4j-api\2.9.1\log4j-api-2.9.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\de\openkeyword\autoit\0.1.20\autoit-0.1.20.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sf\jacob-project\jacob\1.14.3\jacob-1.14.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\antlr\antlr4-runtime\4.7.1\antlr4-runtime-4.7.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\antlr\ST4\4.0.8\ST4-4.0.8.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.1\jaxb-impl-2.3.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-jxc\2.3.1\jaxb-jxc-2.3.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-xjc\2.3.1\jaxb-xjc-2.3.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar org.testng.remote.RemoteTestNG -serport 22771 -protocol json -d E:\FocusAI\FocusAI\test-output E:\FocusAI\FocusAI\testng.xml
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-06-17 16:00:59.952
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:303)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:103)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:233)
+	at org.eclipse.egit.ui.internal.staging.StagingView$48.run(StagingView.java:3119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-06-17 16:01:55.902
+!MESSAGE The process cannot access the file because another process has locked a portion of the file
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:303)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:103)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:233)
+	at org.eclipse.egit.ui.internal.staging.StagingView$48.run(StagingView.java:3119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2019-06-17 16:13:44.476 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-17 16:13:53.978
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator.FOCUS-QA-4'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-17 16:15:12.644
+!MESSAGE No repository found at https://www.eclipse.org/subversive/latest-releases.php.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-17 16:15:44.508
+!MESSAGE No repository found at https://www.eclipse.org/subversive/special-builds.php.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-17 16:16:36.870
+!MESSAGE No repository found at https://www.eclipse.org/subversive/downloads.php.
+!SESSION 2019-06-17 16:25:44.601 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-17 16:25:54.270
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator.FOCUS-QA-4'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-06-17 17:13:24.642 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-17 17:13:38.147
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator.FOCUS-QA-4'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-06-27 16:11:29.659 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-27 16:11:52.283
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator.FOCUS-QA-4'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-27 16:13:58.040
+!MESSAGE No repository found at https://www.eclipse.org/subversive/latest-releases.php.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-27 16:14:33.306
+!MESSAGE No repository found at https://www.eclipse.org/subversive/special-builds.php.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-27 16:15:27.088
+!MESSAGE No repository found at https://www.eclipse.org/subversive/downloads.php.
+!SESSION 2019-08-02 19:45:25.021 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-02 19:45:37.821
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator.FOCUS-QA-4'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-08-02 19:45:50.289
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Read timed out. ; version: 2.0.4.v20170307-1435
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:153)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.testng.eclipse 1 0 2019-08-02 19:49:35.455
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: E:\Selenium\EclipseNeon\eclipse\configuration\org.eclipse.osgi\595\0\.cp\lib\testng-remote.jar E:\FocusAI\FocusAI\target\test-classes E:\FocusAI\FocusAI\target\classes C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-server\3.12.0\selenium-server-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.24\cssparser-0.9.24.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.29\htmlunit-2.29.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.28\neko-htmlunit-2.28.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.7.v20171121\jetty-repacked-9.4.7.v20171121.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-client\9.4.7.v20170914\jetty-client-9.4.7.v20170914.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.7.v20170914\jetty-xml-9.4.7.v20170914.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.29.0\htmlunit-driver-2.29.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.7.v20170914\websocket-api-9.4.7.v20170914.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.7.v20170914\websocket-client-9.4.7.v20170914.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.7.v20170914\websocket-common-9.4.7.v20170914.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\logging\log4j\log4j-api\2.9.1\log4j-api-2.9.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\de\openkeyword\autoit\0.1.20\autoit-0.1.20.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sf\jacob-project\jacob\1.14.3\jacob-1.14.3.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\antlr\antlr4-runtime\4.7.1\antlr4-runtime-4.7.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\antlr\ST4\4.0.8\ST4-4.0.8.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.1\jaxb-impl-2.3.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-jxc\2.3.1\jaxb-jxc-2.3.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-xjc\2.3.1\jaxb-xjc-2.3.1.jar C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 11813 -protocol json -d E:\FocusAI\FocusAI\test-output E:\FocusAI\FocusAI\testng.xml
+java -ea -classpath E:\Selenium\EclipseNeon\eclipse\configuration\org.eclipse.osgi\595\0\.cp\lib\testng-remote.jar:E:\FocusAI\FocusAI\target\test-classes:E:\FocusAI\FocusAI\target\classes:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-server\3.12.0\selenium-server-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.24\cssparser-0.9.24.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.29\htmlunit-2.29.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.28\neko-htmlunit-2.28.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.7.v20171121\jetty-repacked-9.4.7.v20171121.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-client\9.4.7.v20170914\jetty-client-9.4.7.v20170914.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.7.v20170914\jetty-xml-9.4.7.v20170914.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.29.0\htmlunit-driver-2.29.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.7.v20170914\websocket-api-9.4.7.v20170914.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.7.v20170914\websocket-client-9.4.7.v20170914.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.7.v20170914\websocket-common-9.4.7.v20170914.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\logging\log4j\log4j-api\2.9.1\log4j-api-2.9.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\de\openkeyword\autoit\0.1.20\autoit-0.1.20.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\net\sf\jacob-project\jacob\1.14.3\jacob-1.14.3.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\antlr\antlr4-runtime\4.7.1\antlr4-runtime-4.7.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\antlr\ST4\4.0.8\ST4-4.0.8.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0\jaxb-core-2.3.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.1\jaxb-impl-2.3.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-jxc\2.3.1\jaxb-jxc-2.3.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\com\sun\xml\bind\jaxb-xjc\2.3.1\jaxb-xjc-2.3.1.jar:C:\Users\Administrator.FOCUS-QA-4\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar org.testng.remote.RemoteTestNG -serport 11813 -protocol json -d E:\FocusAI\FocusAI\test-output E:\FocusAI\FocusAI\testng.xml
+!SESSION 2019-08-02 20:44:19.431 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-02 20:44:38.674
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator.FOCUS-QA-4'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-08-02 20:44:50.902
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Read timed out. ; version: 2.0.4.v20170307-1435
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(Unknown Source)
+	at sun.security.ssl.AppInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:153)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2019-08-05 10:08:23.347 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-05 10:09:08.680
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator.FOCUS-QA-4'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-08-05 10:09:12.853
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: dev.eclipse.org. ; version: 2.0.4.v20170307-1435
+!STACK 0
+java.net.UnknownHostException: dev.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:42.531
+!MESSAGE Unknown Host: http://beust.com/eclipse/6.14.3/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: beust.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:42.781
+!MESSAGE Connection to https://www.eclipse.org/subversive/latest-releases.php/p2.index failed on www.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:43.000
+!MESSAGE Unknown Host: https://www.eclipse.org/subversive/latest-releases.php/content.xml
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:43.078
+!MESSAGE Unknown Host: http://download.eclipse.org/releases/juno/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:43.109
+!MESSAGE Unknown Host: http://download.eclipse.org/technology/m2e/releases/1.5/1.5.2.20150413-2215/content.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:43.406
+!MESSAGE Connection to http://download.eclipse.org/technology/subversive/4.0/update-site/site.xml failed on download.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:43.687
+!MESSAGE Unknown Host: http://download.eclipse.org/technology/subversive/4.0/update-site/site.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:43.687
+!MESSAGE Unknown Host: http://dl.bintray.com/testng-team/testng-p2-release/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: dl.bintray.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:43.687
+!MESSAGE Connection to https://www.eclipse.org/subversive/special-builds.php/p2.index failed on www.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:43.921
+!MESSAGE Unknown Host: https://www.eclipse.org/subversive/special-builds.php/content.xml
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:44.000
+!MESSAGE Unknown Host: http://download.eclipse.org/technology/m2e/releases/1.6/1.6.2.20150902-0002/content.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:44.031
+!MESSAGE Unknown Host: http://download.eclipse.org/releases/neon/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:44.046
+!MESSAGE Unknown Host: http://download.eclipse.org/technology/m2e/releases/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:44.234
+!MESSAGE Connection to https://www.eclipse.org/subversive/downloads.php/p2.index failed on www.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:44.453
+!MESSAGE Unknown Host: https://www.eclipse.org/subversive/downloads.php/content.xml
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:44.484
+!MESSAGE Unknown Host: http://download.eclipse.org/eclipse/updates/4.6/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:44.515
+!MESSAGE Unknown Host: http://download.eclipse.org/technology/m2e/releases/1.6/1.6.0.20150526-2032/content.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:44.531
+!MESSAGE Unknown Host: http://beust.com/eclipse/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: beust.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-08-05 10:42:44.562
+!MESSAGE Unknown Host: http://download.eclipse.org/tools/gef/updates/releases/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:44.968
+!MESSAGE Connection to https://www.eclipse.org/subversive/latest-releases.php/p2.index failed on www.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:45.218
+!MESSAGE Connection to http://download.eclipse.org/technology/subversive/4.0/update-site/site.xml failed on download.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:45.453
+!MESSAGE Connection to https://www.eclipse.org/subversive/special-builds.php/p2.index failed on www.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:45.703
+!MESSAGE Connection to https://www.eclipse.org/subversive/downloads.php/p2.index failed on www.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:45.968
+!MESSAGE Connection to https://www.eclipse.org/subversive/latest-releases.php/p2.index failed on www.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:46.172
+!MESSAGE Connection to http://download.eclipse.org/technology/subversive/4.0/update-site/site.xml failed on download.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:46.406
+!MESSAGE Connection to https://www.eclipse.org/subversive/special-builds.php/p2.index failed on www.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:46.640
+!MESSAGE Connection to https://www.eclipse.org/subversive/downloads.php/p2.index failed on www.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:46.906
+!MESSAGE Connection to https://www.eclipse.org/subversive/latest-releases.php/p2.index failed on www.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:47.156
+!MESSAGE Connection to http://download.eclipse.org/technology/subversive/4.0/update-site/site.xml failed on download.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:47.390
+!MESSAGE Connection to https://www.eclipse.org/subversive/special-builds.php/p2.index failed on www.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-08-05 10:42:47.640
+!MESSAGE Connection to https://www.eclipse.org/subversive/downloads.php/p2.index failed on www.eclipse.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: www.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

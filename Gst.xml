@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.focus.listeners.Listener"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="com.focus.testcases.URLBrowserTest" />
+			<class name="com.focus.testcases.LoginPageTest" />
+			
+			 <class name="com.focus.testcases.PreferencesPageTest" />
+			 
+			 <!--  <class name="com.focus.testcases.TCSTransactionDetailsPageTest" /> -->
+			
+			 
+			<!-- <class name="com.focus.testcases.TCS_TDSDetailsPageTest" /> -->
+			
+			<!-- <class name="com.focus.testcases.PreferencesPageTest" /> -->
+			<!-- class name="com.focus.testcases.GSTR2APageTest" /> -->
+			<!-- <class name="com.focus.testcases.AddSalesVocherTest"/> -->
+
+
+			<!-- <class name="com.focus.testcases.SalesInvoiceVatTest"/> -->
+
+
+			<!-- <class name="com.focus.testcases.AddBatchItemTest"/> -->
+
+			<!-- <class name="com.focus.testcases.AddStockItemTest"/> -->
+			<!-- <class name="com.focus.testcases.PurchasesVocherTest"/> -->
+			<!-- <class name="com.focus.testcases.PurchaseVocherVatTest"/> -->
+
+			<!-- <class name="com.focus.testcases.SavingPurchaseVochaerVatTest"/> 
+				<class name="com.focus.testcases.AddAccountInAccountMasterTest"/> <class 
+				name="com.focus.testcases.DeleteCompanyTest"/> -->
+
+			<!-- <class name="com.focus.testcases.LoginTest" /> <class name="com.focus.testcases.RegionPageTest" 
+				/> -->
+			<!-- <class name="com.focus.testcases.FinancialPageTest" /> -->
+
+
+			<!-- <class name="com.focus.testcases.LoginPageTest"/> <class name="com.focus.testcases.CompanyOptionsTest"/> -->
+
+			<!-- <class name="com.focus.testcases.CompanyOptionsTest" />
+			<class name="com.focus.testcases.MastersTest" /> 
+			<class name="com.focus.testcases.TransactionsTest"/>
+			<class name="com.focus.testcases.ReportsTest" /> -->
+		
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite --> 

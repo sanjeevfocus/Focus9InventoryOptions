@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" parallel="methods" thread-count="3">
+	<listeners>
+		<listener class-name="com.focus.listeners.Listener"></listener>
+	</listeners>
+	<test name="Test">
+		<classes>
+
+			<class name="com.focus.testcases.URLBrowserTest" />
+			<class name="com.focus.testcases.LoginPageTest" />
+			<!-- <class name="com.focus.testcases.RestoreCompanyTest" /> -->
+			<class name="com.focus.testcases.ItemQueryPageTest" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite --> 

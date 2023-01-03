@@ -1,0 +1,1968 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/4/85</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 14 18:32:25 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>138 seconds (138871 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest<br>Parameters: [TestResult name=validteItemQueryStocksInFifoItem status=FAILURE method=ItemQueryPageTest.validteItemQueryStocksInFifoItem()[pri:13, instance:com.focus.testcases.ItemQueryPageTest@1dfe2924] output=Completed executing following method : ItemQueryPageTest.validteItemQueryStocksInFifoItem]<br/>
+<a href="#Output-803690362" onClick='toggleBox("Output-803690362", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-803690362" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-803690362">
+Completed executing following method : BaseEngine.afterMethodExecution<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;FOCUS-QA-133&apos;, ip: &apos;192.168.4.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Roja\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61fdf29afc624cea6401b09343cf7292
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
+	at com.focus.utilities.ScreenshotUtility.screenshot(ScreenshotUtility.java:19)
+	at com.focus.base.BaseEngine.afterMethodExecution(BaseEngine.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace803690362", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace803690362'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;FOCUS-QA-133&apos;, ip: &apos;192.168.4.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Roja\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61fdf29afc624cea6401b09343cf7292
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
+	at com.focus.utilities.ScreenshotUtility.screenshot(ScreenshotUtility.java:19)
+	at com.focus.base.BaseEngine.afterMethodExecution(BaseEngine.java:168)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest<br>Parameters: [TestResult name=validteItemQueryStocksInBatchItem status=FAILURE method=ItemQueryPageTest.validteItemQueryStocksInBatchItem()[pri:12, instance:com.focus.testcases.ItemQueryPageTest@1dfe2924] output=Completed executing following method : ItemQueryPageTest.validteItemQueryStocksInBatchItem]<br/>
+<a href="#Output-810723495" onClick='toggleBox("Output-810723495", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-810723495" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-810723495">
+Completed executing following method : BaseEngine.afterMethodExecution<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;FOCUS-QA-133&apos;, ip: &apos;192.168.4.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Roja\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61fdf29afc624cea6401b09343cf7292
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
+	at com.focus.utilities.ScreenshotUtility.screenshot(ScreenshotUtility.java:19)
+	at com.focus.base.BaseEngine.afterMethodExecution(BaseEngine.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace810723495", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace810723495'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;FOCUS-QA-133&apos;, ip: &apos;192.168.4.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Roja\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61fdf29afc624cea6401b09343cf7292
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
+	at com.focus.utilities.ScreenshotUtility.screenshot(ScreenshotUtility.java:19)
+	at com.focus.base.BaseEngine.afterMethodExecution(BaseEngine.java:168)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.LoginPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.LoginPageTest<br>Parameters: [TestResult name=checkSignInBtnWithValidUserNameAndValidPassword status=FAILURE method=LoginPageTest.checkSignInBtnWithValidUserNameAndValidPassword()[pri:6, instance:com.focus.testcases.LoginPageTest@35d176f7] output=Completed executing following method : LoginPageTest.checkSignInBtnWithValidUserNameAndValidPassword]<br/>
+<a href="#Output-1652845402" onClick='toggleBox("Output-1652845402", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1652845402" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1652845402">
+Completed executing following method : BaseEngine.afterMethodExecution<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;FOCUS-QA-133&apos;, ip: &apos;192.168.4.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Roja\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61fdf29afc624cea6401b09343cf7292
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
+	at com.focus.utilities.ScreenshotUtility.screenshot(ScreenshotUtility.java:19)
+	at com.focus.base.BaseEngine.afterMethodExecution(BaseEngine.java:168)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1652845402", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1652845402'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;FOCUS-QA-133&apos;, ip: &apos;192.168.4.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Roja\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61fdf29afc624cea6401b09343cf7292
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)
+	at com.focus.utilities.ScreenshotUtility.screenshot(ScreenshotUtility.java:19)
+	at com.focus.base.BaseEngine.afterMethodExecution(BaseEngine.java:168)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.focus.testcases.LoginPageTest@35d176f7</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.beforeMethodExecution()'><b>beforeMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.afterMethodExecution()'><b>afterMethodExecution</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.URLBrowserTest.generateReports()'><b>generateReports</b><br>Test class: com.focus.testcases.URLBrowserTest</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.focus.testcases.LoginPageTest.checkLoginPageAvailablityOfFields()'><b>checkLoginPageAvailablityOfFields</b><br>Test class: com.focus.testcases.LoginPageTest<br/>
+<a href="#Output-1709367872" onClick='toggleBox("Output-1709367872", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1709367872" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1709367872">
+Completed executing following method : LoginPageTest.checkLoginPageAvailablityOfFields<br/>
+Test Method resides in com.focus.testcases.LoginPageTest<br/>
+Test Status: Failed<br/>
+About to begin executing following method : BaseEngine.afterMethodExecution<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (61fdf29afc624cea6401b09343cf7292)] -&gt; xpath: //*[@id=&apos;txtUsername&apos;]] (tried for 40 second(s) with 5000 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.focus.Pages.LoginPage.checkLoginPageAvailablityOfFields(LoginPage.java:212)
+	at com.focus.testcases.LoginPageTest.checkLoginPageAvailablityOfFields(LoginPageTest.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;txtUsername&apos;]&quot;}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;FOCUS-QA-133&apos;, ip: &apos;192.168.4.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Roja\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61fdf29afc624cea6401b09343cf7292
+*** Element info: {Using=xpath, value=//*[@id=&apos;txtUsername&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 15 more
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1709367872", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1709367872'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (61fdf29afc624cea6401b09343cf7292)] -&gt; xpath: //*[@id=&apos;txtUsername&apos;]] (tried for 40 second(s) with 5000 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.focus.Pages.LoginPage.checkLoginPageAvailablityOfFields(LoginPage.java:212)
+	at com.focus.testcases.LoginPageTest.checkLoginPageAvailablityOfFields(LoginPageTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;txtUsername&apos;]&quot;}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;FOCUS-QA-133&apos;, ip: &apos;192.168.4.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Roja\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61fdf29afc624cea6401b09343cf7292
+*** Element info: {Using=xpath, value=//*[@id=&apos;txtUsername&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 15 more
+</pre></div></td>
+<td>42</td>
+<td>com.focus.testcases.LoginPageTest@35d176f7</td></tr>
+<tr>
+<td title='com.focus.testcases.LoginPageTest.checkSignInBtnWithValidUserNameAndValidPassword()'><b>checkSignInBtnWithValidUserNameAndValidPassword</b><br>Test class: com.focus.testcases.LoginPageTest<br/>
+<a href="#Output-202948382" onClick='toggleBox("Output-202948382", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-202948382" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-202948382">
+Completed executing following method : LoginPageTest.checkSignInBtnWithValidUserNameAndValidPassword<br/>
+Test Method resides in com.focus.testcases.LoginPageTest<br/>
+Test Status: Failed<br/>
+About to begin executing following method : BaseEngine.afterMethodExecution<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.focus.testcases.LoginPageTest.checkSignInBtnWithValidUserNameAndValidPassword(LoginPageTest.java:44)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace202948382", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace202948382'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at com.focus.testcases.LoginPageTest.checkSignInBtnWithValidUserNameAndValidPassword(LoginPageTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>95</td>
+<td>com.focus.testcases.LoginPageTest@35d176f7</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInBatchItem()'><b>validteItemQueryStocksInBatchItem</b><br>Test class: com.focus.testcases.ItemQueryPageTest<br/>
+<a href="#Output-1627155824" onClick='toggleBox("Output-1627155824", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1627155824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1627155824">
+Completed executing following method : ItemQueryPageTest.validteItemQueryStocksInBatchItem<br/>
+Test Method resides in com.focus.testcases.ItemQueryPageTest<br/>
+Test Status: Failed<br/>
+About to begin executing following method : BaseEngine.afterMethodExecution<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.focus.base.BaseEngine.click(BaseEngine.java:337)
+	at com.focus.Pages.ItemQueryPage.validteItemQueryStocksInBatchItem(ItemQueryPage.java:144)
+	at com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInBatchItem(ItemQueryPageTest.java:21)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1627155824", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1627155824'><pre>java.lang.NullPointerException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.focus.base.BaseEngine.click(BaseEngine.java:337)
+	at com.focus.Pages.ItemQueryPage.validteItemQueryStocksInBatchItem(ItemQueryPage.java:144)
+	at com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInBatchItem(ItemQueryPageTest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>95</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInFifoItem()'><b>validteItemQueryStocksInFifoItem</b><br>Test class: com.focus.testcases.ItemQueryPageTest<br/>
+<a href="#Output-1354201006" onClick='toggleBox("Output-1354201006", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1354201006" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1354201006">
+Completed executing following method : ItemQueryPageTest.validteItemQueryStocksInFifoItem<br/>
+Test Method resides in com.focus.testcases.ItemQueryPageTest<br/>
+Test Status: Failed<br/>
+About to begin executing following method : BaseEngine.afterMethodExecution<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;FOCUS-QA-133&apos;, ip: &apos;192.168.4.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Roja\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61fdf29afc624cea6401b09343cf7292
+*** Element info: {Using=xpath, value=//input[@id=&apos;productQuery&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.toString(Unknown Source)
+	at java.lang.String.valueOf(Unknown Source)
+	at java.lang.StringBuilder.append(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:699)
+	at java.lang.String.valueOf(Unknown Source)
+	at java.lang.StringBuilder.append(Unknown Source)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:267)
+	at com.focus.base.BaseEngine.click(BaseEngine.java:337)
+	at com.focus.Pages.ItemQueryPage.validteItemQueryStocksInFifoItem(ItemQueryPage.java:194)
+	at com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInFifoItem(ItemQueryPageTest.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1354201006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1354201006'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.63)
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;FOCUS-QA-133&apos;, ip: &apos;192.168.4.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Roja\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61fdf29afc624cea6401b09343cf7292
+*** Element info: {Using=xpath, value=//input[@id=&apos;productQuery&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.toString(Unknown Source)
+	at java.lang.String.valueOf(Unknown Source)
+	at java.lang.StringBuilder.append(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:699)
+	at java.lang.String.valueOf(Unknown Source)
+	at java.lang.StringBuilder.append(Unknown Source)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:267)
+	at com.focus.base.BaseEngine.click(BaseEngine.java:337)
+	at com.focus.Pages.ItemQueryPage.validteItemQueryStocksInFifoItem(ItemQueryPage.java:194)
+	at com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInFifoItem(ItemQueryPageTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>93</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.focus.testcases.LoginPageTest.checkCompanyTextDisplayInCompanyListDropdown()'><b>checkCompanyTextDisplayInCompanyListDropdown</b><br>Test class: com.focus.testcases.LoginPageTest<br/>
+<a href="#Output-1870934385" onClick='toggleBox("Output-1870934385", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1870934385" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1870934385">
+Completed executing following method : LoginPageTest.checkCompanyTextDisplayInCompanyListDropdown<br/>
+Test Method resides in com.focus.testcases.LoginPageTest<br/>
+Test Status: Pass<br/>
+About to begin executing following method : BaseEngine.afterMethodExecution<br/>
+</div>
+</td>
+<td></td>
+<td>31</td>
+<td>com.focus.testcases.LoginPageTest@35d176f7</td></tr>
+<tr>
+<td title='com.focus.testcases.URLBrowserTest.checkLoginPageTitleByURLInputInBrowser()'><b>checkLoginPageTitleByURLInputInBrowser</b><br>Test class: com.focus.testcases.URLBrowserTest<br/>
+<a href="#Output-29353130" onClick='toggleBox("Output-29353130", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-29353130" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29353130">
+Completed executing following method : URLBrowserTest.checkLoginPageTitleByURLInputInBrowser<br/>
+Test Method resides in com.focus.testcases.URLBrowserTest<br/>
+Test Status: Pass<br/>
+About to begin executing following method : BaseEngine.afterMethodExecution<br/>
+</div>
+</td>
+<td></td>
+<td>44</td>
+<td>com.focus.testcases.URLBrowserTest@551aa95a</td></tr>
+<tr>
+<td title='com.focus.testcases.URLBrowserTest.verifyBrowserOpen()'><b>verifyBrowserOpen</b><br>Test class: com.focus.testcases.URLBrowserTest<br/>
+<a href="#Output-977055918" onClick='toggleBox("Output-977055918", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-977055918" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-977055918">
+Completed executing following method : URLBrowserTest.verifyBrowserOpen<br/>
+Test Method resides in com.focus.testcases.URLBrowserTest<br/>
+Test Status: Pass<br/>
+About to begin executing following method : BaseEngine.afterMethodExecution<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.focus.testcases.URLBrowserTest@551aa95a</td></tr>
+<tr>
+<td title='com.focus.testcases.LoginPageTest.verifyTheNumberOfListInCompanyDropdownList()'><b>verifyTheNumberOfListInCompanyDropdownList</b><br>Test class: com.focus.testcases.LoginPageTest<br/>
+<a href="#Output-48286655" onClick='toggleBox("Output-48286655", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-48286655" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-48286655">
+Completed executing following method : LoginPageTest.verifyTheNumberOfListInCompanyDropdownList<br/>
+Test Method resides in com.focus.testcases.LoginPageTest<br/>
+Test Status: Pass<br/>
+About to begin executing following method : BaseEngine.afterMethodExecution<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.LoginPageTest@35d176f7</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkCustomerAgeingSummeryReportWithRefineFilter()'><b>checkCustomerAgeingSummeryReportWithRefineFilter</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkLedgerReportWithRefineFilterFirstPage()'><b>checkLedgerReportWithRefineFilterFirstPage</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkLedgerReportWithRefineFilterLastPage()'><b>checkLedgerReportWithRefineFilterLastPage</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkLoginToInvUserAndValidteItemQueryStocksInBatchItem()'><b>checkLoginToInvUserAndValidteItemQueryStocksInBatchItem</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkLoginToSUUserAndSavingStockTransferVocher1()'><b>checkLoginToSUUserAndSavingStockTransferVocher1</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkLoginToTest1UserAndAuthorizeStockOutVocher()'><b>checkLoginToTest1UserAndAuthorizeStockOutVocher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkPurchaseRegisterReportWithRefineFilter()'><b>checkPurchaseRegisterReportWithRefineFilter</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavePurchasesVoucher()'><b>checkSavePurchasesVoucher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingPurchaseReturnsVoucherWithBrItemHydSecWareHosueInINVUser()'><b>checkSavingPurchaseReturnsVoucherWithBrItemHydSecWareHosueInINVUser</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingPurchaseReturnsVoucherWithFifoItemHydSecWareHosueInINVUser()'><b>checkSavingPurchaseReturnsVoucherWithFifoItemHydSecWareHosueInINVUser</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingPurchaseReturnsVoucherWithRmaItemHydWareHosueInINVUser()'><b>checkSavingPurchaseReturnsVoucherWithRmaItemHydWareHosueInINVUser</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingPurchaseReturnsVoucherWithRmaItemSECWareHosueInINVUser()'><b>checkSavingPurchaseReturnsVoucherWithRmaItemSECWareHosueInINVUser</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingSalesInvoiceVoucherBrBatchItemWithHydWarehouse()'><b>checkSavingSalesInvoiceVoucherBrBatchItemWithHydWarehouse</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingSalesInvoiceVoucherBrBatchItemWithSECWarehouse()'><b>checkSavingSalesInvoiceVoucherBrBatchItemWithSECWarehouse</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingSalesInvoiceVoucherFifoItemWith2Warehouse()'><b>checkSavingSalesInvoiceVoucherFifoItemWith2Warehouse</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingSalesInvoiceVoucherRmaItemWithHYDWarehouse()'><b>checkSavingSalesInvoiceVoucherRmaItemWithHYDWarehouse</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingSalesInvoiceVoucherRmaItemWithSECWarehouse()'><b>checkSavingSalesInvoiceVoucherRmaItemWithSECWarehouse</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingSalesReturnsVoucherWithAllItemsINVUser()'><b>checkSavingSalesReturnsVoucherWithAllItemsINVUser</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingShortagesinStockVoucherWithBrItemHydSecWareHosueInSUUser()'><b>checkSavingShortagesinStockVoucherWithBrItemHydSecWareHosueInSUUser</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingShortagesinStockVoucherWithBrItemTestWareHosue()'><b>checkSavingShortagesinStockVoucherWithBrItemTestWareHosue</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingShortagesinStockVoucherWithFifoItem3WareHosue()'><b>checkSavingShortagesinStockVoucherWithFifoItem3WareHosue</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingShortagesinStockVoucherWithRmaItemHydWareHosue()'><b>checkSavingShortagesinStockVoucherWithRmaItemHydWareHosue</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingShortagesinStockVoucherWithRmaItemSecWareHosue()'><b>checkSavingShortagesinStockVoucherWithRmaItemSecWareHosue</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingShortagesinStockVoucherWithRmaItemTestWareHosue()'><b>checkSavingShortagesinStockVoucherWithRmaItemTestWareHosue</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingStockInVoucher()'><b>checkSavingStockInVoucher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingStockOutVoucher()'><b>checkSavingStockOutVoucher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingStockTransferVocher2()'><b>checkSavingStockTransferVocher2</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkSavingexcessInStocksVoucherWithALLItemsInInvUser()'><b>checkSavingexcessInStocksVoucherWithALLItemsInInvUser</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockAgeingAnalysisReportByDefault()'><b>checkStockAgeingAnalysisReportByDefault</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockAgeingAnalysisReportByDefaultWithRefineFilter()'><b>checkStockAgeingAnalysisReportByDefaultWithRefineFilter</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockAgeingAnalysisReportByWarehouse()'><b>checkStockAgeingAnalysisReportByWarehouse</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockAgeingAnalysisReportByWarehouseHyd()'><b>checkStockAgeingAnalysisReportByWarehouseHyd</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockAgeingAnalysisReportByWarehouseSEC()'><b>checkStockAgeingAnalysisReportByWarehouseSEC</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockBalanceByWarehouseReport()'><b>checkStockBalanceByWarehouseReport</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockBalanceByWarehouseReportWithRefineFilter()'><b>checkStockBalanceByWarehouseReportWithRefineFilter</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportAfterSavingSalesReturnsVocherWithRefineFilterFirstPage()'><b>checkStockLedgerReportAfterSavingSalesReturnsVocherWithRefineFilterFirstPage</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportAfterSavingSalesReturnsVocherWithRefineFilterLastPage()'><b>checkStockLedgerReportAfterSavingSalesReturnsVocherWithRefineFilterLastPage</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForBrBatchItem()'><b>checkStockLedgerReportForBrBatchItem</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForBrBatchItemAfterLoginToInvUser()'><b>checkStockLedgerReportForBrBatchItemAfterLoginToInvUser</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForBrBatchItemAfterSavingSalesInvoiceVocher()'><b>checkStockLedgerReportForBrBatchItemAfterSavingSalesInvoiceVocher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForBrBatchItemAfterSavingSalesReturnsVocher()'><b>checkStockLedgerReportForBrBatchItemAfterSavingSalesReturnsVocher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForBrBatchItemAfterStockTransferVoucher()'><b>checkStockLedgerReportForBrBatchItemAfterStockTransferVoucher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForBrBatchItemAfterStockTransferVoucher2()'><b>checkStockLedgerReportForBrBatchItemAfterStockTransferVoucher2</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForFifoItem()'><b>checkStockLedgerReportForFifoItem</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForFifoItemAfterLoginToInvUser()'><b>checkStockLedgerReportForFifoItemAfterLoginToInvUser</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForFifoItemAfterSavingPurchaseVocher()'><b>checkStockLedgerReportForFifoItemAfterSavingPurchaseVocher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForFifoItemAfterStockTransferVoucher()'><b>checkStockLedgerReportForFifoItemAfterStockTransferVoucher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForFifoItemAfterStockTransferVoucher2()'><b>checkStockLedgerReportForFifoItemAfterStockTransferVoucher2</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForRmaItem()'><b>checkStockLedgerReportForRmaItem</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForRmaItemAfterLoginToInvUser()'><b>checkStockLedgerReportForRmaItemAfterLoginToInvUser</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForRmaItemAfterSavingPurchaseVocher()'><b>checkStockLedgerReportForRmaItemAfterSavingPurchaseVocher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForRmaItemAfterSavingSalesInvoiceVocher()'><b>checkStockLedgerReportForRmaItemAfterSavingSalesInvoiceVocher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForRmaItemAfterSavingSalesReturnvoucher()'><b>checkStockLedgerReportForRmaItemAfterSavingSalesReturnvoucher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForRmaItemAfterStockTransferVoucher()'><b>checkStockLedgerReportForRmaItemAfterStockTransferVoucher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForRmaItemAfterStockTransferVoucher2()'><b>checkStockLedgerReportForRmaItemAfterStockTransferVoucher2</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForStockItemAfterAutrhroizedStockOutVoucher()'><b>checkStockLedgerReportForStockItemAfterAutrhroizedStockOutVoucher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportForStockItemAfterStockInAndStockOutVouchers()'><b>checkStockLedgerReportForStockItemAfterStockInAndStockOutVouchers</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockLedgerReportFortBrBatchItemAfterSavingPurchaseVocher()'><b>checkStockLedgerReportFortBrBatchItemAfterSavingPurchaseVocher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockMovementReportByDefault()'><b>checkStockMovementReportByDefault</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockMovementReportByWareHouse()'><b>checkStockMovementReportByWareHouse</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockMovementReportWithRefineFilter()'><b>checkStockMovementReportWithRefineFilter</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockStatementReporFortBrBatchItem()'><b>checkStockStatementReporFortBrBatchItem</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockStatementReportForFifoItem()'><b>checkStockStatementReportForFifoItem</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockStatementReportForRmaItem()'><b>checkStockStatementReportForRmaItem</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockValuationReportByInventoryTagByProduct()'><b>checkStockValuationReportByInventoryTagByProduct</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockValuationReportByProduct()'><b>checkStockValuationReportByProduct</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockValuationReportByProductWithRefineFilter()'><b>checkStockValuationReportByProductWithRefineFilter</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkStockValuationReportByProductbyInventoryTag()'><b>checkStockValuationReportByProductbyInventoryTag</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkTrailBalanceReportWithRefineFilter()'><b>checkTrailBalanceReportWithRefineFilter</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.checkVendorAgeingSummeryReportWithRefineFilter()'><b>checkVendorAgeingSummeryReportWithRefineFilter</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInBatchItemAfterSavingPurchaseVocher()'><b>validteItemQueryStocksInBatchItemAfterSavingPurchaseVocher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInBatchItemAfterSavingSalesReturnsVocher()'><b>validteItemQueryStocksInBatchItemAfterSavingSalesReturnsVocher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInBatchItemAfterSavingStockTransferVoucher()'><b>validteItemQueryStocksInBatchItemAfterSavingStockTransferVoucher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInBatchItemAfterSavingStockTransferVoucher2()'><b>validteItemQueryStocksInBatchItemAfterSavingStockTransferVoucher2</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInFifoItemAfterLoginToInvUser()'><b>validteItemQueryStocksInFifoItemAfterLoginToInvUser</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInFifoItemAfterSavingPurchaseVocher()'><b>validteItemQueryStocksInFifoItemAfterSavingPurchaseVocher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInFifoItemAfterSavingSalesReturnsVocher()'><b>validteItemQueryStocksInFifoItemAfterSavingSalesReturnsVocher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInFifoItemAfterSavingStockTransferVoucher()'><b>validteItemQueryStocksInFifoItemAfterSavingStockTransferVoucher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInFifoItemAfterSavingStockTransferVoucher2()'><b>validteItemQueryStocksInFifoItemAfterSavingStockTransferVoucher2</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInWAItem()'><b>validteItemQueryStocksInWAItem</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInWAItemAfterLoginToInvUser()'><b>validteItemQueryStocksInWAItemAfterLoginToInvUser</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInWAItemAfterSavingPurchaseVocher()'><b>validteItemQueryStocksInWAItemAfterSavingPurchaseVocher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInWAItemAfterSavingSalesReturnsVocher()'><b>validteItemQueryStocksInWAItemAfterSavingSalesReturnsVocher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInWAItemAfterSavingStockTransferVoucher()'><b>validteItemQueryStocksInWAItemAfterSavingStockTransferVoucher</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+<tr>
+<td title='com.focus.testcases.ItemQueryPageTest.validteItemQueryStocksInWAItemAfterSavingStockTransferVoucher2()'><b>validteItemQueryStocksInWAItemAfterSavingStockTransferVoucher2</b><br>Test class: com.focus.testcases.ItemQueryPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.focus.testcases.ItemQueryPageTest@1dfe2924</td></tr>
+</table><p>
+</body>
+</html>
